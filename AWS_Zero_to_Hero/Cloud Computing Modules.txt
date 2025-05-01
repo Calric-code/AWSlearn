@@ -1,0 +1,45 @@
+Cloud Computing Models
+
+Infrastructure as a Service (IaaS)    
+    Contains the basic building blocks for cloud computing.
+    - Nuts and bolts stuff
+    - Eg. VPC, EC2, EBS
+
+Platform as a Service (PaaS)
+    AWS mangages the infrastructure for you.
+    ( Usually hardware and operating systems)
+    - Eg.RDS, EMR, ElasticSearch
+
+Software as a Service (SaaS)
+    Completed product that is run and managed by the service provider. Mostly refers to the end-user applications:
+    - Eg. Web-based emails, Office 365, Slack, Dropbox, etc.
+
+Serverless Computing 
+    -Allows you to build and run applications and services without thinking about servers. 
+    - Also referred to as Function-as-a-Service (FaaS)
+    - Eg. Amazon Simple Storage Service (S3), Amazon Simple Queue Service (SQS), AWS Lambda
+
+
+
+AWS Storage Services
+    -Simple Storage Service (S3)
+        Serverless storage for the Internet
+        Bucket grows
+    -Glacier
+        Serverless 
+        Archives data
+    -Elastic Block Store(EBS)
+        Block Device storage 
+    - Elastic File System(EFS)
+        Network Device Storage
+        multiple systems can connect 
+    -Storage Gateway
+        Enables Hybrid Storage 
+        Cloud and In person Storage 
+        Stores less frequent data in aws and frequent data in local storage 
+    - Snowball 
+        Migrate data from local storage to cloud storage
+        Download data from cloud storage to local storage
+
+
+VPC in AWS [Virtual Private Cloud]
